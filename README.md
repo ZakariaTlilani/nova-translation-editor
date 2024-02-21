@@ -6,8 +6,7 @@ This is a laravel nova package to manage/edit your translations. It depends on `
 
 ## Nova Versions
 
-- For Nova 3.X use version 1.x of this package
-- For Nova 4.X use version 2.x of this package
+- For Nova 4.X use version 1.x of this package
 
 ## Features
 
@@ -30,7 +29,7 @@ Install this package with composer and publish the config
 
 ```
 composer require zakariatlilani/nova-translation-editor
-php artisan vendor:publish --provider="zakariatlilani\NovaTranslationEditor\FieldServiceProvider"
+php artisan vendor:publish --provider="Zakariatlilani\NovaTranslationEditor\FieldServiceProvider"
 ```
 
 Add this nova tool to your NovaServiceProvider (`app/Providers/NovaServiceProvider.php`):
@@ -40,7 +39,7 @@ public function tools()
 {
     return [
         ...
-        new \zakariatlilani\NovaTranslationEditor\NovaTranslationEditor()
+        new \Zakariatlilani\NovaTranslationEditor\NovaTranslationEditor()
     ];
 }
 ```

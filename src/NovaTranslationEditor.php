@@ -1,6 +1,6 @@
 <?php
 
-namespace zakariatlilani\NovaTranslationEditor;
+namespace Zakariatlilani\NovaTranslationEditor;
 
 use Laravel\Nova\Menu\MenuSection;
 use Laravel\Nova\Nova;
