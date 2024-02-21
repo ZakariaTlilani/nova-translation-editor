@@ -30,7 +30,7 @@ Install this package with composer and publish the config
 
 ```
 composer require bernhardh/nova-translation-editor
-php artisan vendor:publish --provider="Bernhardh\NovaTranslationEditor\ToolServiceProvider"
+php artisan vendor:publish --provider="zakariatlilani\NovaTranslationEditor\ToolServiceProvider"
 ```
 
 Add this nova tool to your NovaServiceProvider (`app/Providers/NovaServiceProvider.php`):
@@ -40,7 +40,7 @@ public function tools()
 {
     return [
         ...
-        new \Bernhardh\NovaTranslationEditor\NovaTranslationEditor()
+        new \zakariatlilani\NovaTranslationEditor\NovaTranslationEditor()
     ];
 }
 ```

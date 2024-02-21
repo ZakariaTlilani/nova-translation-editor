@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakariatlilani\NovaTranslationEditor;
+namespace zakariatlilani\NovaTranslationEditor;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Zakariatlilani\NovaTranslationEditor\NovaTranslationEditorController;
 
-class FieldServiceProvider extends ServiceProvider
+class ToolServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.

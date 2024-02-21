@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakariatlilani\NovaTranslationEditor;
+namespace zakariatlilani\NovaTranslationEditor;
 
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Http\Request;
