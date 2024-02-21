@@ -29,7 +29,7 @@ First, make sure that you have installed and configured [spatie/laravel-translat
 Install this package with composer and publish the config
 
 ```
-composer require bernhardh/nova-translation-editor
+composer require zakariatlilani/nova-translation-editor
 php artisan vendor:publish --provider="zakariatlilani\NovaTranslationEditor\ToolServiceProvider"
 ```
 
