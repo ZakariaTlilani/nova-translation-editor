@@ -30,7 +30,7 @@ Install this package with composer and publish the config
 
 ```
 composer require zakariatlilani/nova-translation-editor
-php artisan vendor:publish --provider="zakariatlilani\NovaTranslationEditor\ToolServiceProvider"
+php artisan vendor:publish --provider="zakariatlilani\NovaTranslationEditor\FieldServiceProvider"
 ```
 
 Add this nova tool to your NovaServiceProvider (`app/Providers/NovaServiceProvider.php`):

@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Zakariatlilani\NovaTranslationEditor\NovaTranslationEditorController;
 
-class ToolServiceProvider extends ServiceProvider
+class FieldServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
